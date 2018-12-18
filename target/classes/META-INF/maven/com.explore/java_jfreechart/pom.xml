@@ -1,0 +1,70 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.explore</groupId>
+	<artifactId>java_jfreechart</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>java_jfreechart</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.jfree/jfreechart-swt -->
+		<dependency>
+			<groupId>org.jfree</groupId>
+			<artifactId>jfreechart-swt</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.jfree/chart_experimental -->
+		<!-- https://mvnrepository.com/artifact/org.jfree/jfreechart -->
+		<dependency>
+			<groupId>org.jfree</groupId>
+			<artifactId>jfreechart</artifactId>
+			<version>1.0.19</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jfree</groupId>
+			<artifactId>jcommon</artifactId>
+			<version>1.0.24</version>
+		</dependency>
+		
+		<!-- Datavec -->
+				<!-- https://mvnrepository.com/artifact/org.datavec/datavec-api -->
+		<dependency>
+			<groupId>org.datavec</groupId>
+			<artifactId>datavec-api</artifactId>
+			<version>0.9.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.datavec/datavec-data-image -->
+		<dependency>
+			<groupId>org.datavec</groupId>
+			<artifactId>datavec-data-image</artifactId>
+			<version>0.9.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.datavec/datavec-spark -->
+		<dependency>
+			<groupId>org.datavec</groupId>
+			<artifactId>datavec-spark_2.11</artifactId>
+			<version>0.9.1_spark_2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.datavec/datavec-local -->
+		<dependency>
+			<groupId>org.datavec</groupId>
+			<artifactId>datavec-local</artifactId>
+			<version>0.9.1</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>

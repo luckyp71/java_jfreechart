@@ -1,1 +1,1 @@
-# JFreechart with Datavec Example
+# JFreeChart with Datavec Example
